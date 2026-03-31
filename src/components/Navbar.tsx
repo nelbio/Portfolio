@@ -12,16 +12,16 @@ const Navbar = () => {
                 </a>
                 <ul className="hidden md:flex space-x-4">
                     <li>
-                        <a href="#" className="btn btn-sm btn-ghost">Home</a>
+                        <a href="#Home" className="btn btn-sm btn-ghost">Home</a>
                     </li>
                     <li>
-                        <a href="#" className="btn btn-sm btn-ghost">About</a>
+                        <a href="#About" className="btn btn-sm btn-ghost">About</a>
                     </li>
                     <li>
-                        <a href="#" className="btn btn-sm btn-ghost">My skills</a>
+                        <a href="#Skills" className="btn btn-sm btn-ghost">My skills</a>
                     </li>
                     <li>
-                        <a href="#" className="btn btn-sm btn-ghost">My projects</a>
+                        <a href="#Projects" className="btn btn-sm btn-ghost">My projects</a>
                     </li>
 
                 </ul>

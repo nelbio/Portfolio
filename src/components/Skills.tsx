@@ -11,7 +11,7 @@ const Skills = () => {
 
   return (
    
-    <div className="bg-base-300 min-h-screen p-10 flex justify-center items-center">
+    <div className="bg-base-300 min-h-screen p-10 flex justify-center items-center" id="Skills">
       <div className="w-full max-w-4xl space-y-12 md:mb-32 ">
         
         < Title title={"My skills"}  />

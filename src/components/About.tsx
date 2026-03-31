@@ -4,7 +4,7 @@ import { Paintbrush, Wallpaper } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="bg-base-300 p-8 md:mb-32" >
+    <div className="bg-base-300 p-8 md:mb-32" id="About" >
       <Title title="About Me" />
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-20 mt-10">

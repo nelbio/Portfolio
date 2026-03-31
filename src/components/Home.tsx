@@ -5,7 +5,7 @@ import img from "../assets/img1.png";
 const Home = () => {
     return(
         <div className="flex flex-col-reverse ml-2 md:flex-row justify-center items-center
-        md:my-32 my-10">
+        md:my-32 my-10" id="Home">
 
 
             <div className="flex flex-col text-center md:text-left ">
@@ -17,7 +17,7 @@ const Home = () => {
             <p className="my-4 text-md text-center md:text-left">Full stack web developper <br/>
             I'm a full stack developper with one year experience<br/> i'm workng with React JS and node Js 
             <br/> conctact me here if my services are needed</p>
-        <a href="#" className="btn bg-orange-700 hover:bg-orange-800 border-none
+        <a href="mailto:nelliprincesse@gmail.com" className="btn bg-orange-700 hover:bg-orange-800 border-none
         hover:shadow-orange-600/60 transition-all
          md:w-fit">  contact me
             <Mail className="w-5 h-5" />
