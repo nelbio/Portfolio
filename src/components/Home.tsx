@@ -1,6 +1,6 @@
 
 import { Mail } from "lucide-react";
-import img from "../assets/img1.jpg"
+import img from "../assets/img1.jpg";
 
 const Home = () => {
     return(
@@ -10,14 +10,14 @@ const Home = () => {
 
             <div className="flex flex-col text-center md:text-left ">
             <h1 className="text-5xl md:text-6xl
-            font-bold text=center md:text-lext
-            mt-4 md:mt=0">HELLO! <br/>I'm
+            font-bold text-center md:text-left
+            mt-4 md:mt-0">HELLO! <br/>I'm
             <span className="text-orange-700"> Nelly Ariane GOUNOU</span></h1>
 
             <p className="my-4 text-md text-center md:text-left">Full stack web developper <br/>
             I'm a full stack developper with one year experience<br/> i'm workng with React JS and node Js 
             <br/> conctact me here if my services are needed</p>
-        <a href="" className="btn bg-orange-700 hover:bg-orange-800 border-none
+        <a href="#" className="btn bg-orange-700 hover:bg-orange-800 border-none
         hover:shadow-orange-600/60 transition-all
          md:w-fit">  contact me
             <Mail className="w-5 h-5" />
