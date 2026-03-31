@@ -11,10 +11,10 @@ const Skills = () => {
 
   return (
    
-    <div className="bg-base-300 min-h-screen p-10 flex justify-center items-center  md:mt-0">
-      <div className="w-full max-w-4xl space-y-12 md:mb-32">
+    <div className="bg-base-300 min-h-screen p-10 flex justify-center items-center">
+      <div className="w-full max-w-4xl space-y-12 md:mb-32 ">
         
-        < Title title={"My skills"} />
+        < Title title={"My skills"}  />
 
         {/* LISTE DES COMPÉTENCES */}
         <div className="space-y-8">

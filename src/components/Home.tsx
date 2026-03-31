@@ -1,6 +1,6 @@
 
 import { Mail } from "lucide-react";
-import img from "../assets/img1.jpg";
+import img from "../assets/img1.png";
 
 const Home = () => {
     return(
@@ -12,7 +12,7 @@ const Home = () => {
             <h1 className="text-5xl md:text-6xl
             font-bold text-center md:text-left
             mt-4 md:mt-0">HELLO! <br/>I'm
-            <span className="text-orange-700"> Nelly Ariane GOUNOU</span></h1>
+            <span className="text-orange-700"> Nelly Ariane Gounou</span></h1>
 
             <p className="my-4 text-md text-center md:text-left">Full stack web developper <br/>
             I'm a full stack developper with one year experience<br/> i'm workng with React JS and node Js 
