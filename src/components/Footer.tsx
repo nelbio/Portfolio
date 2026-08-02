@@ -33,7 +33,7 @@ const Footer = () => {
                                                       hover:scale-110 hover:shadow-md">
                                       <FaGithub className="w-5 h-5" />
                                   </a>
-                                  <a href="https://linkedin.com/in/gounou-nelly-ariane" target="_blank" rel="noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-orange-100 
+                                  <a href="https://linkedin.com/in/gounou-nelly-ariane-37b3973a9" target="_blank" rel="noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-orange-100 
                                                       text-gray-600 hover:text-orange-700 transition-all duration-300 
                                                       hover:scale-110 hover:shadow-md">
                                       <FaLinkedin className="w-5 h-5" />
