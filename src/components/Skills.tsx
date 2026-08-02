@@ -2,10 +2,12 @@ import Title from "./Title"
 const Skills = () => {
   
   const skillsData = [
-    { name: "HTML", value: 90 },      
-    { name: "CSS", value: 80 },
-    { name: "JAVASCRIPT", value: 60 },
-    { name: "REACT", value: 50 },
+     { name: "POSTGRES SQL", value: 95 },
+    { name: "HTML", value: 90 },
+    { name: "NODE JS", value: 80 },      
+    { name: "CSS", value: 75 },
+    { name: "REACT JS", value: 60 },
+    { name: "REACT NATIVE", value: 50 },
     
   ];
 

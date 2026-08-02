@@ -1,4 +1,5 @@
 import { ChessQueen, Mail, Copyright } from "lucide-react";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -26,21 +27,30 @@ const Footer = () => {
       {/* Réseaux Sociaux */}
       <div>
         <div className="grid grid-flow-col gap-6 text-2xl"> {/* Taille définie ici */}
-          <a href="https://github.com/nelbio" target="_blank" rel="noreferrer" 
-             className="hover:text-orange-700 hover:-translate-y-1 transition-all">
-            {/* Icône GitHub de FontAwesome */}
-            <span className="i-fa6-brands-github block">G</span>
+           <div className="flex gap-4 justify-center md:justify-start mt-6">
+                                  <a href="https://github.com/nelbio" target="_blank" rel="noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-orange-100 
+                                                      text-gray-600 hover:text-orange-700 transition-all duration-300 
+                                                      hover:scale-110 hover:shadow-md">
+                                      <FaGithub className="w-5 h-5" />
+                                  </a>
+                                  <a href="https://linkedin.com/in/gounou-nelly-ariane" target="_blank" rel="noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-orange-100 
+                                                      text-gray-600 hover:text-orange-700 transition-all duration-300 
+                                                      hover:scale-110 hover:shadow-md">
+                                      <FaLinkedin className="w-5 h-5" />
+                                  </a>
+                                  <a href="https://facebook.com/NellyNga" target="_blank" rel="noreferrer" className="p-2 rounded-full bg-gray-100 hover:bg-orange-100 
+                                                      text-gray-600 hover:text-orange-700 transition-all duration-300 
+                                                      hover:scale-110 hover:shadow-md">
+                                      <FaFacebook className="w-5 h-5" />
+                                  </a>
+                                  <a href="mailto:nelliprincesse@gmail.com" className="p-2 rounded-full bg-gray-100 hover:bg-orange-100 
+                                                      text-gray-600 hover:text-orange-700 transition-all duration-300 
+                                                      hover:scale-110 hover:shadow-md">
+            
+                                            <Mail size={24} />
           </a>
-          <a href="https://linkedin.com/in/gounou-nelly-ariane" target="_blank" rel="noreferrer"
-             className="hover:text-orange-700 hover:-translate-y-1 transition-all">
-            {/* Icône LinkedIn de Material Design Icons */}
-            <span className="i-mdi-linkedin block">L</span>
-          </a>
-          <a href="mailto:nelliprincesse@gmail.com" 
-             className="hover:text-orange-700 hover:-translate-y-1 transition-all">
-            {/* On garde Mail de Lucide car il marche */}
-            <Mail size={24} />
-          </a>
+                              </div>
+          
         </div>
       </div>
 

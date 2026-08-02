@@ -4,17 +4,24 @@ import img5 from "../assets/img5.png";
 import img6 from "../assets/img6.png";
 import img7 from "../assets/img7.png";
 import img8 from "../assets/img8.png";
+import img9 from "../assets/img9.png";
+import img10 from "../assets/img10.png";
+import img11 from "../assets/img11.png";
+
 import Title from "./Title";
 
 
 const Projects = () => {
   const projectsList = [
-    { id: 1, title: "MBOA EAT", img: img3 },
-    { id: 2, title: "Weather App", img: img4 },
-    { id: 3, title: "intern management", img: img5 },
-    { id: 4, title: "Speed Tester", img: img6 }, 
-    { id: 5, title: "Daily Report App", img: img7 }, 
-     { id: 6, title: "Quote Generator", img: img8 },          
+    { id: 1, title: "Restaurant App", img: img3, link: "#" },
+    { id: 2, title: "Weather App", img: img4, link: "#" },
+    { id: 3, title: "intern management", img: img5, link: "#" },
+    { id: 4, title: "Speed Tester", img: img6, link: "#" }, 
+    { id: 5, title: "Daily Report App", img: img7, link: "#" }, 
+    { id: 6, title: "Quote Generator", img: img8, link: "#" },
+    { id: 7, title: "Smart Waste Management ", img: img9, link: "#" },
+    { id: 8, title: "BRN gas Platform", img: img10, link: "#" },
+    { id: 9, title: "Admin Management System", img: img11, link: "#" },
   ];
 
   return (
@@ -22,7 +29,7 @@ const Projects = () => {
       
       <div className="text-center mb-16">
         <Title title="My Projects" />
-        </div>
+      </div>
 
       {/* Grille de projets */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -46,8 +53,13 @@ const Projects = () => {
               </h3>
             </div>
 
-            {/* Un lien invisible sur toute la carte */}
-            <a href="#" className="absolute inset-0 z-10"></a>
+            {/* Lien avec href personnalisé pour chaque projet */}
+            <a 
+              href={project.link} 
+              className="absolute inset-0 z-10"
+              target="_blank" 
+              rel="noopener noreferrer"
+            ></a>
           </div>
         ))}
       </div>
