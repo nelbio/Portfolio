@@ -19,7 +19,7 @@ const Projects = () => {
     { id: 4, title: "Speed Tester", img: img6, link: "#" }, 
     { id: 5, title: "Daily Report App", img: img7, link: "#" }, 
     { id: 6, title: "Quote Generator", img: img8, link: "#" },
-    { id: 7, title: "Smart Waste Management ", img: img9, link: "#" },
+    { id: 7, title: "Smart Waste Management ", img: img9, link: "https://waste-system-sandy.vercel.app/" },
     { id: 8, title: "BRN gas Platform", img: img10, link: "#" },
     { id: 9, title: "Admin Management System", img: img11, link: "#" },
   ];
